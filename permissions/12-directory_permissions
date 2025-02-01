@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p my_dir 
+chmod +x my_dir
