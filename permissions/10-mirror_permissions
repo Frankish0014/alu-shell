@@ -1,0 +1,5 @@
+#!/bin/bash
+#get the permission of olleh to octal format
+permissions=$(stat -c "%a" olleh)
+#Now we give permossions of olleh to hello
+chmod $permissions hello 
