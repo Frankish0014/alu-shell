@@ -1,2 +1,2 @@
-smiley="(Ôo)'"; echo "\"$smiley\""
-echo $(expr length "$smiley" + 2)" chars long"
+#!/bin/bash
+echo ""(Ôo)'"
