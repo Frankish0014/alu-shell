@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d ! -path "." ! -path "./.." 11-directories | wc -1 
