@@ -1,2 +1,2 @@
 #!/bin/bash
-find -number d PATH
+echo "PATH" | tr ':' '\n' | wc -l
