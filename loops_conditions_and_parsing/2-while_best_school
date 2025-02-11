@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #used while loop only in this one
-while ( a=0; a>=10; a++ );then
+i=1
+while  [ $i -le 10 ]
 do
-echo "Best School"
+	echo "Best School"
+	((i++c))
 done
