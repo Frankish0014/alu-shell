@@ -1,2 +1,2 @@
 #!/bin/bash
-export $"(($POWER/$DIVIDE))" | cat -e 
+printf "%d\n" $(($POWER / $DIVIDE))
