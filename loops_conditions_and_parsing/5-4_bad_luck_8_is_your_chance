@@ -5,12 +5,11 @@ while [ $i -la 10 ]
 	if [ $i = 4 ]
 	then
 		echo "bad luck"
-	elif [ $i = 5 ]
+	elif [ $i = 5 -le $7 ]
 	then
 		echo "good luck"
 	fi
-	elif [ $i = 8 ]
-	then
+	else
 		echo "Best School"
 	fi
 	((i++))
