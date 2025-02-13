@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# current directory content
+#list format
+#Prt of the name when the first dash is displayed
+
+ 
+for file in *;
+do
+	echo "$file" | cut -d'-' -f2
+done
